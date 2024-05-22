@@ -1,0 +1,114 @@
+/*header*/
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(0, 216, 216);
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration:none;
+  color: #fff;
+  background-color: #367900;
+  transition: background-color 0.3s;
+  font-weight: 700;
+  
+}
+
+.btn:hover {
+  background-color: #0056b3;
+
+}
+.adminnote{
+  background-color: red;
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  margin: 0%;
+  padding: 1px;
+}
+/*footer*/
+footer {
+    
+    background-color:  rgb(0, 216, 216);;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section,
+  .contact-section,
+  .address-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .about-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-line {
+    height: 70px;
+    width: 2px;
+    background-color: #fff;
+  }
+  
+  .contact-section h2,
+  .address-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  /*body*/
+  body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

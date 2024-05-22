@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ffffff, rgb(105, 255, 91));
+}
+.container {
+    width: 700px;
+    margin: 50px auto;
+    background-image: url('../Images/vector/login.png');
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+h2 {
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #007206;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"],
+input[type="reset"] {
+    width: 38%;
+    padding: 10px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #007206;
+    color: #fff;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #00a9dd;
+}
+.error {
+    outline: 2px solid red;
+}

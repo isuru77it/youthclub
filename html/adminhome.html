@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/adminhome.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="../Images/logob.png" alt="Company Logo">
+          </div>
+          <div class="navbar-right">
+           
+            <a href="../html/landing.html" class="btn">Log Out</a>
+          </div>
+        </nav>
+        <div class="adminnote">
+            <p>You Are Admin</p>
+        </div>
+      </header>
+
+
+      <div class="form-container">
+        <form id="adminForm">
+            <h2>Add Admin</h2>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Re-enter Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="button-group">
+                <button type="button" id="clearButton">Clear</button>
+                <button type="button" id="addButton">Add</button>
+            </div>
+        </form>
+    </div>
+    
+
+      <footer>
+        <div class="footer-container">
+          <div class="about-section">
+            <h1>About</h1>
+            <p>A vibrant community where young hearts <br>
+              unite, dreams flourish, and friendships <br>
+              blossom. Join us on this journey of growth <br>
+              and camaraderie!</p>
+          </div>
+          <div class="vertical-line"></div>
+          <div class="contact-section">
+            <h2>Connect with us</h2>
+            <ul>
+              <li><strong>Phone:</strong> +94763712145</li>
+              <li><strong>Email:</strong> fairgang@gmail.com</li>
+              <li><strong>Fax:</strong> +123456789</li>
+            </ul>
+            <div class="social-icons">
+              <a href="www.facebook.com" target="_blank"><img src="../Images/icon/facebook.png" alt="Facebook"></a>
+              <a href="#" target="_blank"><img src="../Images/icon/twitter.png" alt="Twitter"></a>
+
+              <a href="#" target="_blank"><img src="../Images/icon/linkedin.png" alt="linkedin"></a>
+              <a href="#" target="_blank"><img src="../Images/icon/youtube.png" alt="youtube"></a>
+            </div>
+          </div>
+          <div class="address-section">
+            <h2>Address</h2>
+            <p>No.123, <br>Main Street, <br> Kandy, <br> Sri Lanka, 21000</p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="../js/adminhome.js"></script>
+</body>
+</html>
